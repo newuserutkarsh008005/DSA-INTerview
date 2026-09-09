@@ -4,5 +4,8 @@
 # Allow directories
 !*/
 
-# Allow .cpp files
+# Allow C++ files
 !*.cpp
+
+# Keep gitignore itself
+!.gitignore
