@@ -1,2 +1,8 @@
-# C++ compiled executables
-*.out
+# Ignore everything
+*
+
+# Allow directories
+!*/
+
+# Allow .cpp files
+!*.cpp
