@@ -17,7 +17,7 @@ void dfs(vector<vector<int>>&adj,vector<int>&dt,vector<int>&mt,int src,int par,i
             }
         }
         else if(neigh!=par){
-            mt[src]=min(mt[src],dt[src]);
+            mt[src]=min(mt[src],dt[neigh]);
         }
     }
     if(par==-1 && child>1){
